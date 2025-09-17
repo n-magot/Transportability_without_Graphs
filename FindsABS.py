@@ -1,5 +1,6 @@
 """
-This script implements the FindsABS algorithm in an example dataset with 10 variables 
+This script implements the FindsABS algorithm in an example dataset with 10 variables.
+This code is used in the supplementary material to test for scalability of our method for different Ne in case of (a) No latent confouning and (b) Latent confounding.
 """
 import jax
 import jax.numpy as jnp
