@@ -1,3 +1,6 @@
+"""
+This script implements the FindsABS algorithm in an example dataset with 10 variables 
+"""
 import jax
 import jax.numpy as jnp
 import numpy as np
