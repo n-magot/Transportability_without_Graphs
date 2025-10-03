@@ -123,7 +123,6 @@
         )
 
         x = np.vstack((x_rct, x_obs))
-        x = x[:, [0]]
         y = np.hstack((y_rct, y_obs))
         t = np.hstack((t_rct, t_obs))
         s = np.hstack((s_rct, s_obs))
