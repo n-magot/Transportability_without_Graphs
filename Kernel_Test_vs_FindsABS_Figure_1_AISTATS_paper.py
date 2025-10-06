@@ -1,12 +1,12 @@
-"""Experimental section, Scenario 1, UAI2025
-In this example we simulate data: Do, De, Do* with binary outcome Y
-- Do on population  Π:
+"""Supplementary Material, Synthetic data, relaxing the assumption of shared causal graph.
+In this example we simulate data: De source, Do* target with binary outcome Y
+- Causal graph in population  Π*:
                         X -> Y
                         Z -> Y
                         W -> Y
                     Confounders:
                         Z -> X
-                        W -> X  (in Π* this arrow does not exist)
+                        W -> X  (in Π this arrow does not exist)
 
 P(Z)<>P*(Z) and P(W)<>P*(W)
 """
