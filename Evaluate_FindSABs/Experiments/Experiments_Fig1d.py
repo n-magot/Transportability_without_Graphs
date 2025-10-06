@@ -1,6 +1,6 @@
-"""Experimental section, Scenario,
+"""Experimental section, Figure 1d,
 In this example we simulate data: Do, De, Do* with binary outcome Y
-- Do on population  Π:
+- Causal graphs for Π and Π*:
                     X -> Y, W -> Y, H1 -> Y, H1 -> Z, H2 -> Z,H2 -> X
                             
 P(Z)<>P*(Z)
