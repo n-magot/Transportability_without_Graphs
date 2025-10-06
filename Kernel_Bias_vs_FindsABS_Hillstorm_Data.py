@@ -1,3 +1,12 @@
+"""We used the public available code from De Bartolomeis et al. (2024b) for generate Semi-synthetic Data (Hillstrom’s Email).:
+        @inproceedings{debartolomeis2024detecting,
+         title={Detecting critical treatment effect bias in small subgroups},
+         author={De Bartolomeis, Piersilvio and Abad, Javier and Donhauser, Konstantin and Yang, Fanny},
+         booktitle={The 40th Conference on Uncertainty in Artificial Intelligence},
+         year={2024}
+
+We used "subgroups" with mode 1 and mode 2 and "scenario_1" as model in --bias_model [MODEL] and we save locally the data to use them for comparison with our method
+}"""
 import jax
 import jax.numpy as jnp
 import numpy as np
