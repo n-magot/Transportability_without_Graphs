@@ -1,12 +1,11 @@
-"""Experimental section, Scenario 1,
-In this example we simulate data: Do, De, Do* with binary outcome Y
-- Do on population  Π:
+"""Experimental section, Figure 1a,
+In this example we simulate data: De source, Do* target, De* target for evaluation with binary outcome Y
+- Causal graph for Π and Π* :
                         X -> Y
                         Z -> Y
                         W -> Y
                     Confounders:
                         Z -> X
-                        W -> X  (in Π* this arrow does not exist)
                         
 P(Z)<>P*(Z) and P(W)<>P*(W)
 """
