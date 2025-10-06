@@ -1,3 +1,12 @@
+"""This document illustrates how we generate data that we used to run the code for the Bias-test method from their public available github page (link: https://github.com/jaabmar/kernel-test-bias.git):
+
+@inproceedings{debartolomeis2024detecting,
+ title={Detecting critical treatment effect bias in small subgroups},
+ author={De Bartolomeis, Piersilvio and Abad, Javier and Donhauser, Konstantin and Yang, Fanny},
+ booktitle={The 40th Conference on Uncertainty in Artificial Intelligence},
+ year={2024}
+}"""
+
     def Generate_DE_source(sample_size, intercept_Y, b_T_Y, b_Z2_Y, b_Z1_Y, Z1_mean_P, Z1_std_P, Z2_mean_P, Z2_std_P, rng):
       
         e = rng.normal(size=sample_size)
@@ -76,6 +85,9 @@
     child_seeds = ss.spawn(n_runs)
     # Create RNGs for each run
     rngs = [np.random.default_rng(s) for s in child_seeds]
+
+    No = 5000
+    Ne = 100
 
     for k in range(n_runs):
 
