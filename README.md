@@ -1,6 +1,6 @@
 #  Data-driven Transportability using De, Do*
 
-This repository contains the code for the work: Transportability without Graphs: A Bayesian Approach to Identifying s-Admissible Backdoor Sets,  available at [Testing Identifiability and Transportability with Observational and Experimental Data](https://arxiv.org/pdf/2505.12801) 
+This repository contains the code for the work: Transportability without Graphs: A Bayesian Approach to Identifying s-Admissible Backdoor Sets,  available at [Transportability without Graphs: A Bayesian Approach to Identifying s-Admissible Backdoor Sets](https://arxiv.org/pdf/2505.12801) 
 
 ## Overview
 Our method combines experimental data (De) from the source distribution with observational data (Do*) from the target distribution to compute the probability that a causal effect is both identifiable from observational data and transportable. When this holds,
